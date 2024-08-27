@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 3px;
+}
+
+html,
+body {
+    font-family: 'Montserrat', 'Arial';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #f1f1f1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 80px;
+}
+
+.cabeçalho {
+    background-color: #212529;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+article p {
+    text-align: justify;
+    font-size: 19px;
+}
+
+article h1 {
+    text-align: center;
+}
+
+article li {
+    font-weight: bold;
+    font-size: 25px;
+    list-style: none;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+.container-opniao{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.opniao{
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.247);
+    height: 500px;
+    flex: 0 1 450px;
+    flex-flow: row wrap;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.opniao h2{
+    font-size: 38px;
+    text-align: center;
+    top: 20%;
+    position: absolute;
+}
+
+.opniao p{
+    font-weight: 600;
+    text-align: center;
+    top: 80%;
+    position: absolute;
+}
+
+.opniao a{
+    color: black;
+}
+
+.texto-formulario{
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.247);
+    height: 500px;
+    flex: 0 1 450px;
+    flex-flow: row wrap;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: #f0f0f0;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.texto-formulario h3{
+    font-size: 36px;
+    text-align: center;
+    top: 10%;
+    position: absolute;
+}
+
+form input{
+    margin: 15px;
+    display: block;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+footer{
+    padding: 0;
+    flex-shrink: 0;
+}
+.all {
+    background-color: #212529;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.all p {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px;
+    width: 200px;
+    display: block;
+    text-align: center;
+}
+
+.menu a,
+.all p {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    width: 200px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+}
+
+.menu {
+    margin: 10px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+}
+
+.imgp,
+.imgp1,
+.imgp2 {
+    text-align: center;
+}
+
+* h1 {
+    font-size: 50px;
+}
+
+.nav2 {
+    color: white;
+    background-color: #212529;
+    text-align: center;
+    height: 70px;
+    font-size: large;
+}
+
+.nav2 a {
+    color: rgb(255, 255, 255);
+}
+
+@media (width <= 1110px) {
+    .navbar{
+        display: flex;
+    }
+
+    ul{
+        flex-flow: row wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .prox
+         {
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .imgp2,
+    .imgp1,
+    .imgp,
+    .img1 {
+        width: 99%;
+    }
+
+    @media screen and (max-width: 570px) {
+        .imgp2,
+        .imgp1,
+        .imgp,
+        .img1 {
+            width: 99%;
+        }
+    }
+}
