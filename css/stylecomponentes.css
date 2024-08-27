@@ -20,6 +20,9 @@ body {
     flex-direction: column;
 }
 
+.nav2 a{
+    text-decoration: none;
+}
 
 section {
     display: -webkit-flex;
@@ -111,15 +114,13 @@ article a:hover {
     text-align: center;
     position: relative;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
 
 .texto-formulario h3{
     font-size: 36px;
     text-align: center;
-    top: 10%;
-    position: absolute;
 }
 
 form input{
@@ -173,6 +174,7 @@ footer{
 .img1 {
     display: flex;
     justify-content: center;
+    
 }
 
 .imgp,
