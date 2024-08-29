@@ -14,15 +14,34 @@ body {
     overflow-x: hidden;
     background-color: #f1f1f1;
 }
-
+.navbar{
+    position: fixed;
+    z-index: 999;
+    height: auto;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
 .cabeçalho {
     background-color: #212529;
     padding: 30px;
     text-align: center;
     font-size: 35px;
     color: rgb(255, 255, 255);
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
+
+.badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 article {
     background-color: #f1f1f1;
     margin: 0;
@@ -115,6 +134,19 @@ footer li{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+@media (width < 1402px){
+    .cabeçalho{
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+
+@media(width < 1162px){
+    .cabeçalho{
+        height: 250px;
+        align-items: flex-end;
+    }
+}
 
 @media (width <= 1110px) {
     .navbar{
@@ -125,9 +157,6 @@ footer li{
         flex-flow: row wrap;
     }
 
-    .cabeçalho h2{
-        display: none;
-    }
 }
 
 
@@ -139,12 +168,14 @@ footer li{
 
 }
 
-@media (width <=550px){
+@media (width < 650px){
     .badge{
-        display: grid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .badge span{
-        font-size: 1px;
+    .badge h3{
+        flex-shrink: 1;
     }
 }
