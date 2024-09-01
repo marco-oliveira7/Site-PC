@@ -87,7 +87,7 @@
             resultados visuais precisos e consistentes.</p>
 
         <div class="img1">
-            <img src="..\img/monitor.png" />
+            <picture><source media="(width < 475px)" srcset="..\img/monitor/monitor-pq.png"><img src="..\img/monitor/monitor.png" /></source></picture>
         </div>
 
         <h1 id="principais">Componentes Principais</h1>
@@ -142,11 +142,20 @@
 
     </article>
 
-    <div class="all">
-        <div class="menu">
-            <a href="../index.html">Voltar ao ínicio</a>
-        </div>
-    </div>
+    <nav aria-label="Page navigation example" class="footer">
+        <ul class="pagination">
+            <li class="page-item" id="item-1"><a class="page-link" href="processador.html">Anterior</a></li>
+            <li class="page-item" id="item-2"><a class="page-link" href="armazenamento.html">1</a></li>
+            <li class="page-item" id="item-3"><a class="page-link" href="fonte.html">2</a></li>
+            <li class="page-item" id="item-4"><a class="page-link" href="memoriaram.html">3</a></li>
+            <li class="page-item" id="item-4"><a class="page-link" href="placadevideo.html">4</a></li>
+            <li class="page-item" id="item-4"><a class="page-link" href="placamae.html">5</a></li>
+            <li class="page-item" id="item-4"><a class="page-link" href="processador.html">6</a></li>
+            <li class="page-item" id="item-4"><a class="page-link" href="monitor.html">7</a></li>
+            <li class="page-item" id="item-4"><a class="page-link" href="gabinete.html">8</a></li>
+            <li class="page-item" id="item-5"><a class="page-link" href="gabinete.html">Proximo</a></li>
+        </ul>
+    </nav>
 
     <script src="../js/all.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>

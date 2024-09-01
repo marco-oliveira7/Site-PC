@@ -15,7 +15,7 @@
 </head>
 
 <style>
-    .img1{
+    .img1 {
         margin: 50px;
     }
 </style>
@@ -31,34 +31,34 @@
             </button>
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link" href="armazenamento.html">Armazenamento</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="fonte.html">Fonte</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="memoriaram.html">Memoria Ram</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="placadevideo.html">Placa de Video</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="placamae.html">Placa Mãe</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="processador.html">Processador</a>
-					</li>
-					<li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link" href="armazenamento.html">Armazenamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fonte.html">Fonte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="memoriaram.html">Memoria Ram</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placadevideo.html">Placa de Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placamae.html">Placa Mãe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="processador.html">Processador</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="monitor.html">Monitores</a>
                     </li>
-					<li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="gabinete.html">Gabinetes</a>
                     </li>
-					<li class="nav-item">
-						<a class="nav-link" href="contato.html">Contato</a>
-					</li>
-				</ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
 
             </div>
         </div>
@@ -89,7 +89,10 @@
             adequado é essencial para garantir não apenas a proteção e organização dos componentes internos, mas também
             a eficiência do sistema em termos de refrigeração, desempenho e estética.</p>
         <div class="img1">
-            <img src="..\img/gabinete1.png" />
+            <picture>
+                <source media="(width < 770px)" srcset="..\img/gabinete/gabinete1-pq.png"><img
+                    src="..\img/gabinete/gabinete1.png" /></source>
+            </picture>
         </div>
 
         <h1 id="principais">Componentes Principais</h1>
@@ -107,7 +110,10 @@
         </p>
 
         <div class="img1">
-            <img src="..\img/gabinete2.png" />
+            <picture>
+                <source media="(width < 1400px)" srcset="..\img/gabinete/gabinete2-pq.png"><img
+                    src="..\img/gabinete/gabinete2.png" /></source>
+            </picture>
         </div>
 
         <h1>Refrigeração e Fluxo de Ar</h1>
@@ -157,11 +163,20 @@
             alto desempenho.</p>
     </article>
 
-    <div class="all">
-        <div class="menu">
-            <a href="../index.html">Voltar ao ínicio</a>
-        </div>
-    </div>
+    <nav aria-label="Page navigation example" class="footer">
+        <ul class="pagination">
+            <li class="page-item" id="item-1"><a class="page-link" href="monitor.html">Anterior</a></li>
+            <li class="page-item" id="item-2"><a class="page-link" href="armazenamento.html">1</a></li>
+            <li class="page-item" id="item-3"><a class="page-link" href="fonte.html">2</a></li>
+            <li class="page-item" id="item-4"><a class="page-link" href="memoriaram.html">3</a></li>
+            <li class="page-item" id="item-4"><a class="page-link" href="placadevideo.html">4</a></li>
+            <li class="page-item" id="item-4"><a class="page-link" href="placamae.html">5</a></li>
+            <li class="page-item" id="item-4"><a class="page-link" href="processador.html">6</a></li>
+            <li class="page-item" id="item-4"><a class="page-link" href="monitor.html">7</a></li>
+            <li class="page-item" id="item-4"><a class="page-link" href="gabinete.html">8</a></li>
+            <li class="page-item" id="item-5"><a class="page-link" href="contato.html">Proximo</a></li>
+        </ul>
+    </nav>
 
     <script src="../js/all.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
