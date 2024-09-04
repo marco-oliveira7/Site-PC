@@ -42,6 +42,10 @@ header {
     justify-content: center;
     align-items: center;
 }
+h3 {
+    flex: 1 1 40px !important;
+}
+
 article {
     background-color: #f1f1f1;
     margin: 0;
@@ -120,7 +124,7 @@ footer li{
 }
 
 .carousel-caption{
-    background-color: rgba(0, 0, 0, 0.267); /* Fundo preto semitransparente */
+    background-color: rgba(0, 0, 0, 0.267);
     width: max-content;
     margin: auto;
     border-radius: 5px;
@@ -159,11 +163,21 @@ footer li{
 
 }
 
+@media (width < 995px){
+    .carousel-control-prev-icon, 
+    .carousel-control-next-icon {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(26%) hue-rotate(314deg) brightness(106%) contrast(102%);
+    }
+}
 
 @media (max-width: 600px) {
     nav {
         width: 100%;
         height: auto;
+    }
+
+    #carouselExample{
+        display: none;
     }
 
 }
@@ -180,4 +194,8 @@ footer li{
     }
 }
 
-
+@media(width < 475px){
+    h3{
+        font-size: 1em;
+    }
+}

@@ -203,6 +203,10 @@ form input{
     color: rgb(255, 255, 255);
 }
 
+.nav2 a:hover{
+    text-decoration: underline;
+}
+
 @media(width < 1093px){
     .page-item{
         flex: 0 1 auto;
