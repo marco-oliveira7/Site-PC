@@ -151,6 +151,7 @@ form input{
 .page-item {
     flex: 0 1 60px;
     transition: all 0.2s ;
+    font-weight: 500;
 }
 
 .page-item:hover{
