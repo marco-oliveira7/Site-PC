@@ -270,3 +270,8 @@ form input{
         }
     }
 }
+.breadcrumb{
+    display: flex;
+    justify-content: center;
+
+}

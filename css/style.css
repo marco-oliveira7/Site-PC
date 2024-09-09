@@ -199,3 +199,19 @@ footer li{
         font-size: 1em;
     }
 }
+.list-group-item{
+
+    background-color: #212529;
+    color: white;
+    border: none;
+}
+.breadcrumb{
+    display: flex;
+    justify-content: center;
+
+}
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+  }
+
