@@ -212,6 +212,16 @@ form input{
     text-decoration: underline;
 }
 
+.form-control{
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.figure-caption{
+    text-align: center;
+    font-size: 15px;
+}
+
 @media(width < 1093px){
     .page-item{
         flex: 0 1 auto;

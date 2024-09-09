@@ -13,13 +13,13 @@
     <meta name="author" content="Marco Antônio & Alain">
     <link rel="stylesheet" href="../css/stylecomponentes.css">
     <script src="js/my_js.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/all.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 
 <style>
-    
+
 </style>
 
 <body>
@@ -67,10 +67,10 @@
     </nav>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="../index.html">Ínicio</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Contato</li>
+            <li class="breadcrumb-item"><a href="../index.html">Ínicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contato</li>
         </ol>
-      </nav>
+    </nav>
     <section class="container-opniao">
 
         <section class="opniao">
@@ -83,39 +83,43 @@
 
         <section class="texto-formulario">
             <h3>Envie para nós uma mensagem</h3>
-                <form action="cadastro.php">
-                    <label for="iname">Name</label>
-                    <input type="text" name="name" id="iname">
+            <form action="cadastro.php">
+                <label for="iname">Name</label>
+                <input type="text" name="name" id="iname">
 
-                    <label for="iemail">Email</label>
-                    <input type="email" name="email" id="iemail">
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail">
 
-                    <label for="imessage">Message</label>
-                    <input type="text" name="message" id="imessage">
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Enviar mensagem
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Obrigado!!!</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Obrigado por nos enviar um feedback, estamos sempre tentando aprimorar nosso site!
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Finalizar</button>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-                </form>
-                
+                <label for="exampleFormControlTextarea1" class="form-label">Envie uma mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Enviar mensagem
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Obrigado!!!</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Obrigado por nos enviar um feedback, estamos sempre tentando aprimorar nosso site!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                    data-bs-dismiss="modal">Finalizar</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
         </section>
 
     </section>
