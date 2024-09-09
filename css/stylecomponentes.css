@@ -9,7 +9,6 @@
     display: none;
 }
 
-
 html,
 body {
     font-family: 'Montserrat', 'Arial';
@@ -280,3 +279,18 @@ form input{
     justify-content: center;
 
 }
+.btn-primary{
+
+    background-color: white;
+    border: none;
+    font-weight: 500;
+    color: black;
+    
+}
+.btn-primary:hover{
+    background-color: #212529;
+}
+
+.btn-primary:active{
+	background-color: #212529 !important;
+} 

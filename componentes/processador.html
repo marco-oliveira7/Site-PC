@@ -63,13 +63,15 @@
 
 
     <div class="nav2">
-        <a href="#">O que é o processador?</a></li>
-        <a href="#">O que é clock (frequência)?</a></li>
-        <a href="#">O que são os núcleos e threads</a></li>
-        <a href="#">O que é memória cache?</a></li>
-        <a href="#">O que é TDP</a></li>
-        <a href="#">O que é GPU integrada</a></li>
-        <a href="#">Socket</a></li>
+        <div class="btn-group" role="group" aria-label="Basic example" >
+            <a href="#1"><button type="button" class="btn btn-primary">O que é o processador?</button></a>
+            <a href="#2"><button type="button" class="btn btn-primary" >O que é clock?</button></a>
+            <a href="#3"><button type="button" class="btn btn-primary" >Núcleos e threads</button></a>
+            <a href="#4"><button type="button" class="btn btn-primary">Memória cache</button></a>
+            <a href="#5"><button type="button" class="btn btn-primary" >O que é TDP?</button></a>
+            <a href="#6"><button type="button" class="btn btn-primary" >O que é GPU integrada? </button></a>
+            <a href="#7"><button type="button" class="btn btn-primary" >Socket</button></a>
+          </div>
     </div>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -78,7 +80,7 @@
         </ol>
       </nav>
     <article>
-        <h1>O que é Processador?</h1>
+        <h1 id="1">O que é Processador?</h1>
         <p>
 
 
@@ -102,7 +104,7 @@
             <picture><source media="(width < 870px)" srcset="..\img/processador/Processador-pq.png"><img src="..\img/processador/Processador.png"/></source></picture>
         </div>
 
-        <h1>O que é clock (frequência)?</h1>
+        <h1 id="2">O que é clock (frequência)?</h1>
         <p>
             O clock, em termos de processadores, refere-se à frequência de operação do processador,
             que é medida em Hertz (Hz). Essencialmente, indica quantos ciclos de processamento o processador pode
@@ -135,7 +137,7 @@
 
 
 
-        <h1>O que são os núcleos e threads</h1>
+        <h1 id="3">O que são os núcleos e threads</h1>
         <p>Os <strong>núcleos</strong> são as unidades fundamentais de processamento dentro de um processador.
             Cada núcleo é capaz de executar instruções de forma independente das outras unidades de processamento no
             mesmo processador.
@@ -160,7 +162,7 @@
             embora chips sofisticados (usados em servidores, por exemplo) possam ter uma quantidade maior deles.
             O suporte a mais de um thread é chamado de multithreading.</p>
 
-        <h1>O que é Memória Cache</h1>
+        <h1 id="4">O que é Memória Cache</h1>
         <p>Em resumo, a memória cache é uma parte do processador (CPU) de computadores e dispositivos móveis.
             Ele atua como uma memória temporária para que o chipset recupere rapidamente os dados,
             sem a necessidade de uma busca direta na memória principal (RAM).</p>
@@ -170,7 +172,7 @@
             celulares e outros dispositivos eletrônicos. Como resultado, isso otimiza a performance dos softwares,
             já que o caminho até a informação é encurtado.</p>
 
-        <h1>O que é TDP?</h1>
+        <h1 id="5">O que é TDP?</h1>
         <p><strong>O TDP, ou Thermal Design Power,</strong>
             é uma medida da quantidade máxima de calor que um processador pode gerar em condições normais.
             O TDP é expresso em watts e serve como parâmetro para entender as necessidades de resfriamento de
@@ -180,7 +182,7 @@
             uma peça geralmente de alumínio ou cobre que absorve a energia térmica e a distribui em uma
             superfície em contato com o ar.</p>
 
-        <h1>O que é GPU integrada?</h1>
+        <h1 id="6">O que é GPU integrada?</h1>
         <p>As GPUs integradas são unidades de processamento gráfico incorporadas diretamente no processador,
             eliminando a necessidade de um chip gráfico separado. Elas oferecem economia de espaço e energia,
             redução de custos, melhor eficiência na comunicação CPU-GPU, são comuns em SoCs e têm menor latência.
@@ -192,7 +194,7 @@
             Isso tem impulsionado o uso de GPUs integradas em uma variedade de dispositivos, desde laptops e desktops
             até sistemas embarcados e dispositivos móveis,
             oferecendo uma solução versátil e conveniente para uma variedade de necessidades de computação gráfica.</p>
-        <h1>O que é Soquete?</h1>
+        <h1 id="7">O que é Soquete?</h1>
         <p>Considerando placas-mãe de computadores, os soquetes são “os encaixes” que as placas-mãe possuem
             para instalação dos processadores. Eles possuem um ou mais componentes mecânicos responsáveis
             pelas conexões elétricas e mecânicas entre o microprocessador e o PCB. Assim, é possível colocar

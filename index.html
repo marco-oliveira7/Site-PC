@@ -13,9 +13,29 @@
 	<meta name="keywords" content="HTML, CSS, JavaScript">
 	<meta name="author" content="Marco Antônio & Alain">
 	<link rel="stylesheet" href="./css/style.css">
-</head>
+	<script src="js/my_js.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/all.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	
 
 <body>
+	
+
+	<div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+		<div class="toast-header">
+		  <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"></rect></svg>
+		  <strong class="me-auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Início</font></font></strong>
+		  <small class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 minutos atrás</font></font></small>
+		  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Fechar"></button>
+		</div>
+		<div class="toast-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+		  Olá, seja bem-vindo a página principal do site sobre peças de computadores!
+		</font></font></div>
+	  </div>
+
+
+	  
 	<nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="index.html"> <i class="fa-solid fa-house-chimney"></i> Inicio</a>
@@ -278,6 +298,9 @@
 					informações necessárias para uma experiência de construção bem-sucedida. Vamos começar a montar seu
 					futuro PC?
 				</p>
+				
+
+
 			</div>
 		</article>
 
@@ -286,21 +309,24 @@
 	<footer>
 
 		<div class="list-group">
-			<button type="button" class="list-group-item list-group-item-action active btn btn-secondary"  aria-current="true" style="color:black; background-color: white;"; class="list-titulo">
-				Fontes usadas na construção do site:	
+			<button type="button" class="list-group-item list-group-item-action active btn btn-secondary"  aria-current="true" style="color:black; background-color: white;"data-bs-toggle="tooltip" title="Essas são as fontes principais!" id="myTooltip";>
+				Fontes usadas na construção do site:
 			  </button>
-			<a href="https://www.infowester.com/index.php" target="_blank"><button type="button" class="list-group-item list-group-item-action">Infowester</button></a>
-			<a href="https://pt.wikipedia.org/wiki/Placa-m%C3%A3e" target="_blank"><button type="button" class="list-group-item list-group-item-action">WikiPédia</button></a>
-			<a href="https://www.techtudo.com.br/noticias/2012/03/para-que-serve-o-hd.ghtml" target="_blank"><button type="button" class="list-group-item list-group-item-action">TechTudo</button></a>
-			<a href="https://www.adrenaline.com.br/hardware/voce-sabe-o-que-e-um-soquete-para-processador-vai-saber/" target="_blank"><button type="button" class="list-group-item list-group-item-action">Adrenaline</button></a>
+			<a href="https://www.infowester.com/index.php" target="_blank"><button type="button" class="list-group-item list-group-item-action" data-bs-toggle="tooltip" title="https://www.infowester.com/index.php" id="myTooltip">Infowester</button></a>
+			<a href="https://pt.wikipedia.org/wiki/Placa-m%C3%A3e" target="_blank"><button type="button" class="list-group-item list-group-item-action" data-bs-toggle="tooltip" title="https://pt.wikipedia.org/wiki/Placa-m%C3%A3e" id="myTooltip">WikiPédia</button></a>
+			<a href="https://www.techtudo.com.br/noticias/2012/03/para-que-serve-o-hd.ghtml" target="_blank"><button type="button" class="list-group-item list-group-item-action" data-bs-toggle="tooltip" title="https://www.techtudo.com.br/noticias/2012/03/para-que-serve-o-hd.ghtml" id="myTooltip">TechTudo</button></a>
+			<a href="https://www.adrenaline.com.br/hardware/voce-sabe-o-que-e-um-soquete-para-processador-vai-saber/" target="_blank"><button type="button" class="list-group-item list-group-item-action" data-bs-toggle="tooltip" title="https://www.adrenaline.com.br/hardware/voce-sabe-o-que-e-um-soquete-para-processador-vai-saber/" id="myTooltip">Adrenaline</button></a>
 			
 			<p class="by"> © Todos os direitos reservados por Marco e Alain</p>
 		  </div>
 	</footer>
 	
-	<script src="js/popper.min.js"></script>
-	<script src="js/all.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js"></script>
+	
+
+	
+
+
+	
 
 </body>
 </html>
