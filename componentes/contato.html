@@ -19,7 +19,27 @@
 </head>
 
 <style>
+    .fa-instagram{
+        font-size: 3em;
+    }
+    .fa-whatsapp{
+        font-size: 3em;
+    }
+    .fa-linkedin{
+        font-size: 3em;
+    }
 
+    #instagram:hover{
+        background: linear-gradient(45deg, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D);
+    }
+
+    #whatsapp:hover{
+        background: linear-gradient(45deg, #25D366, #075E54);
+    }
+
+    #linkedin:hover{
+        background: linear-gradient(45deg, #00B2FF, #006AFF);
+    }
 </style>
 
 <body>
@@ -119,12 +139,35 @@
                     </div>
                 </div>
             </form>
-
         </section>
-
     </section>
 
-
+    <div class="cards">
+        <div class="card" style="width: 18rem;">
+            <i class="fa-brands fa-instagram"></i>
+            <div class="card-body">
+              <h5 class="card-title">Instagram</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://www.instagram.com/" target="_blank" class="btn btn-primary" id="instagram">Clique Aqui</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div class="card-body">
+              <h5 class="card-title">WhatsApp</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://web.whatsapp.com/" target="_blank" class="btn btn-primary" id="whatsapp">Clique Aqui</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <i class="fa-brands fa-linkedin"></i>
+            <div class="card-body">
+              <h5 class="card-title">Linkedin</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://www.linkedin.com/" target="_blank" class="btn btn-primary" id="linkedin">Clique Aqui</a>
+            </div>
+          </div>
+    </div>
 
     <nav aria-label="Page navigation example" class="footer">
         <ul class="pagination">

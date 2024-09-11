@@ -134,6 +134,12 @@ form input{
     border: 1px solid black;
 }
 
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 10px 30px 20px;
+    text-align: center;
+}
 
 .footer {
     background-color: #212529;
