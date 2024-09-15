@@ -40,7 +40,6 @@ header {
     flex-flow: row wrap;
 }
 
-
 .badge{
     display: flex;
     justify-content: center;
@@ -98,16 +97,7 @@ footer li{
 .container h1 {
     text-align: center;
 }
-.card {
-    width: 18rem;
-    height: 100%;
-}
-.card-body {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    height: 100%;
-}
+
 
 .btn-bottom {
     margin-top: auto;
@@ -143,6 +133,13 @@ footer li{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+.list-group a{
+    margin: auto;
+}
+
+.list-group a:hover{
+    border-radius: 4px;
+}
 
 .list-group-item{
     background-color: #212529;
@@ -150,16 +147,44 @@ footer li{
     border: none;
     transition: all 0.1s ease-in-out;
     border-radius: 4px;
+    width: max-content;
 }
 
-.list-group a:hover{
-    border-radius: 4px;
+
+.card-body{
+    background-color: #212529; 
+    color: #f1f1f1;
+}
+
+.breadcrumb{
+    display: flex;
+    justify-content: center;
+
+}
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+  }
+.toast{
+    z-index: 20000 !important;
+    position: absolute;
 }
 
 @media (width > 770px) {
     h4{
         display: none;
     }
+    .fa-arrow-down{
+        display: none;
+    }
+}
+
+@media(width <= 770px) {
+    .fa-arrow-down{
+		font-size: 2em;
+		display: block;
+		margin: auto;
+	}
 }
 
 @media (width < 1402px){
@@ -201,19 +226,9 @@ footer li{
         height: auto;
     }
 
-    #carouselExample{
-        display: none;
-    }
-
 }
 
 @media (width < 650px){
-    .badge{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     h3{
         flex:  0 1 30px;
     }
@@ -224,24 +239,27 @@ footer li{
         font-size: 1em;
     }
 }
-.list-group-item{
 
-    background-color: #212529;
-    color: white;
-    border: none;
+@media(width < 400px) {
+    .carousel{
+        display: none;
+    }
+    h4{
+        display: none;
+    }
+    .fa-arrow-down{
+        display: none;
+    }
+    .list-group button{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .list-group-item a{
+        flex: 0 1 20px;
+        
+    }
 }
-.breadcrumb{
-    display: flex;
-    justify-content: center;
 
-}
-.custom-tooltip {
-    --bs-tooltip-bg: var(--bd-violet-bg);
-    --bs-tooltip-color: var(--bs-white);
-  }
-.toast{
-    z-index: 20000 !important;
-    position: absolute;
-}
-  
+
 

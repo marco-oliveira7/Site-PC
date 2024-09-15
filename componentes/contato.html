@@ -19,26 +19,51 @@
 </head>
 
 <style>
-    .fa-instagram{
-        font-size: 3em;
+    .card {
+        border-radius: 50px;
+        display: flex;
     }
-    .fa-whatsapp{
-        font-size: 3em;
-    }
-    .fa-linkedin{
+
+    .fa-instagram {
         font-size: 3em;
     }
 
-    #instagram:hover{
+    .fa-whatsapp {
+        font-size: 3em;
+    }
+
+    .fa-linkedin {
+        font-size: 3em;
+    }
+
+    .fa-instagram:hover {
+        transition: all 1s;
+        filter: brightness(0) saturate(100%) invert(35%) sepia(39%) saturate(2633%) hue-rotate(212deg) brightness(91%) contrast(98%) brightness(0) saturate(100%) invert(32%) sepia(91%) saturate(4353%) hue-rotate(237deg) brightness(93%) contrast(84%);
+    }
+
+    .fa-whatsapp:hover {
+        transition: all 0.5s;
+        filter: brightness(0) saturate(100%) invert(75%) sepia(8%) saturate(5193%) hue-rotate(83deg) brightness(95%) contrast(78%);
+    }
+
+    .fa-linkedin:hover {
+        transition: all 0.5s;
+        filter: brightness(0) saturate(100%) invert(49%) sepia(19%) saturate(4733%) hue-rotate(169deg) brightness(104%) contrast(104%);
+    }
+
+    #instagram:hover {
         background: linear-gradient(45deg, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D);
+        transition: all 1s;
     }
 
-    #whatsapp:hover{
+    #whatsapp:hover {
         background: linear-gradient(45deg, #25D366, #075E54);
+        transition: all 1s;
     }
 
-    #linkedin:hover{
+    #linkedin:hover {
         background: linear-gradient(45deg, #00B2FF, #006AFF);
+        transition: all 1s;
     }
 </style>
 
@@ -91,13 +116,12 @@
             <li class="breadcrumb-item active" aria-current="page">Contato</li>
         </ol>
     </nav>
+
     <section class="container-opniao">
 
         <section class="opniao">
             <h2>Nos conte o que achou do site</h2>
-            <p>envie uma mensagem para este email
-                <a href="email.html">suporte@seupc.com.br</a>
-            </p>
+            <p>envie uma mensagem para este email <a href="email.html">suporte@seupc.com.br</a> </p>
         </section>
 
 
@@ -146,27 +170,30 @@
         <div class="card" style="width: 18rem;">
             <i class="fa-brands fa-instagram"></i>
             <div class="card-body">
-              <h5 class="card-title">Instagram</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://www.instagram.com/" target="_blank" class="btn btn-primary" id="instagram">Clique Aqui</a>
+                <h5 class="card-title">Instagram</h5>
+                <p class="card-text">Acesse nosso Instagram para saber das novidades do site</p>
+                <a href="https://www.instagram.com/" target="_blank" class="btn btn-primary" id="instagram">Clique
+                    Aqui</a>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
+        </div>
+        <div class="card" style="width: 18rem;">
             <i class="fa-brands fa-whatsapp"></i>
             <div class="card-body">
-              <h5 class="card-title">WhatsApp</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://web.whatsapp.com/" target="_blank" class="btn btn-primary" id="whatsapp">Clique Aqui</a>
+                <h5 class="card-title">WhatsApp</h5>
+                <p class="card-text">Acesse nosso WhatsApp saber das novidades do site</p>
+                <a href="https://web.whatsapp.com/" target="_blank" class="btn btn-primary" id="whatsapp">Clique
+                    Aqui</a>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
+        </div>
+        <div class="card" style="width: 18rem;">
             <i class="fa-brands fa-linkedin"></i>
             <div class="card-body">
-              <h5 class="card-title">Linkedin</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://www.linkedin.com/" target="_blank" class="btn btn-primary" id="linkedin">Clique Aqui</a>
+                <h5 class="card-title">Linkedin</h5>
+                <p class="card-text">Acesse nosso Linkedin para saber das novidades do site</p>
+                <a href="https://www.linkedin.com/" target="_blank" class="btn btn-primary" id="linkedin">Clique
+                    Aqui</a>
             </div>
-          </div>
+        </div>
     </div>
 
     <nav aria-label="Page navigation example" class="footer">

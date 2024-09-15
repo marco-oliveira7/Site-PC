@@ -251,6 +251,13 @@ form input{
     }
 }
 
+@media (width < 876px){
+    .cards{
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
+
 @media (max-width: 600px) {
     section {
         -webkit-flex-direction: column;
