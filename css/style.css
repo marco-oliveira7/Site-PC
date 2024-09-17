@@ -170,6 +170,8 @@ footer li{
     position: absolute;
 }
 
+
+
 @media (width > 770px) {
     h4{
         display: none;
@@ -250,15 +252,18 @@ footer li{
     .fa-arrow-down{
         display: none;
     }
-    .list-group button{
+    
+    .list-group{
         display: flex;
-        flex-flow: row wrap;
         justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
     }
-    .list-group-item a{
-        flex: 0 1 20px;
-        
+
+    .list-group > button{
+        flex: 0 1 30px;
     }
+
 }
 
 
