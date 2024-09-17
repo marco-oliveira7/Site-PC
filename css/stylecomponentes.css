@@ -228,6 +228,27 @@ form input{
     font-size: 15px;
 }
 
+.breadcrumb{
+    display: flex;
+    justify-content: center;
+
+}
+.btn-primary{
+
+    background-color: white;
+    border: none;
+    font-weight: 500;
+    color: black;
+    
+}
+.btn-primary:hover{
+    background-color: #212529;
+}
+
+.btn-primary:active{
+	background-color: #212529 !important;
+} 
+
 @media(width < 1093px){
     .page-item{
         flex: 0 1 auto;
@@ -255,6 +276,12 @@ form input{
     .cards{
         display: flex;
         flex-flow: row wrap;
+    }
+}
+
+@media(width < 611px){
+    .card{
+        margin: 15px;
     }
 }
 
@@ -297,23 +324,4 @@ form input{
         }
     }
 }
-.breadcrumb{
-    display: flex;
-    justify-content: center;
 
-}
-.btn-primary{
-
-    background-color: white;
-    border: none;
-    font-weight: 500;
-    color: black;
-    
-}
-.btn-primary:hover{
-    background-color: #212529;
-}
-
-.btn-primary:active{
-	background-color: #212529 !important;
-} 
